@@ -1,0 +1,17 @@
+form {
+  border: 1pt solid black;
+  display:inline-block;
+  padding: 5px;
+  margin-top: 5px
+}
+
+button {
+  float: right;
+  margin-top: 5px
+}
+
+@media print {
+  form {
+    display: none;
+  }
+}

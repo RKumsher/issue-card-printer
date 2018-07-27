@@ -1,0 +1,17 @@
+import {Component, Input, OnInit} from '@angular/core';
+import {StoryCard} from './story-card';
+
+@Component({
+  selector: 'app-story-card',
+  templateUrl: './story-card.component.html',
+  styleUrls: ['./story-card.component.css']
+})
+export class StoryCardComponent implements OnInit {
+
+  @Input() story: StoryCard;
+
+  constructor() { }
+
+  ngOnInit() { }
+
+}

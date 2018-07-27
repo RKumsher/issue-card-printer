@@ -1,0 +1,31 @@
+.subtask {
+  width: 3in;
+  height: 3in;
+  border: 1pt solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subtask .title {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.subtask .description {
+  font-size: 35px;
+  padding: 10px;
+}
+
+.subtask .points {
+  font-size: 50px;
+  align-self: flex-end;
+  padding: 10px;
+  margin-top: -60px;
+}
+
+@media print {
+  .subtask {
+    page-break-inside: avoid;
+  }
+}

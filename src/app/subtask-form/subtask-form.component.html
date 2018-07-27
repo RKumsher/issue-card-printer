@@ -1,0 +1,15 @@
+<form (ngSubmit)="onSubmit()" #subtaskForm="ngForm">
+  <div class="form-group">
+    <label for="id">ID</label>
+    <input type="text" class="form-control" id="id" [(ngModel)]="model.id" name="id">
+  </div>
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="title" [(ngModel)]="model.title" name="title">
+  </div>
+  <div class="form-group">
+    <label for="points">Estimate</label>
+    <input type="number" class="form-control" id="points" [(ngModel)]="model.points" name="points">
+  </div>
+  <button type="submit" class="btn btn-success">Add Subtask</button>
+</form>

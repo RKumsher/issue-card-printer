@@ -1,0 +1,8 @@
+<div *ngFor="let story of storyCards">
+  <div class="issue-wrapper">
+    <app-story-card [story]="story"></app-story-card>
+    <button class="delete" title="delete story"
+            (click)="delete(story)">X
+    </button>
+  </div>
+</div>

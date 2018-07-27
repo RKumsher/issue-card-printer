@@ -1,0 +1,19 @@
+.issue-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.issue-wrapper .delete {
+  color: red;
+  font-size: 16px;
+}
+
+@media print {
+  .issue-wrapper .delete {
+    display: none;
+  }
+
+  .issue-wrapper {
+    page-break-inside: avoid;
+  }
+}

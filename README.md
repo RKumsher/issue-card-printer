@@ -1,6 +1,8 @@
 # IssueCardPrinter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
+Application for printing Story and sub-task cards
+
+Deployed to http://issue-card-printer.s3-website-us-east-1.amazonaws.com/
 
 ## Development server
 

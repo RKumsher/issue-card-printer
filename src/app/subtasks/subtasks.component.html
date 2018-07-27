@@ -1,0 +1,10 @@
+<div class="subtasks" *ngIf="subtasks.length > 0">
+  <div *ngFor="let subtask of subtasks">
+    <div class="issue-wrapper">
+      <app-subtask [subtask]="subtask"></app-subtask>
+      <button class="delete" title="delete subtask"
+              (click)="delete(subtask)">X
+      </button>
+    </div>
+  </div>
+</div>
